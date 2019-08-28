@@ -1,26 +1,35 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import ListScreen from './componens/ListScreen/ListScreen'
+import MapScreen from './componens/MapScreen/MapScreen'
+import { connect } from 'react-redux';
+import { editActivityData } from './redux/action';
+import list from './componens/list'
 
-function App() {
+class App extends React.Component{
+
+  constructor(props){
+    super(props);
+    const { navigation } = this.props;
+}
+ 
+ render(){
+  this.props.editActivityData(list);
+  if(this.props.page == "list")
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ListScreen />
   );
+  else
+  return (
+    <MapScreen />
+  );
+ } 
 }
 
-export default App;
+const mapStateToProps = (state) => {
+  const { activityData, page} = state
+  return { activityData, page }
+};
+
+export default connect(mapStateToProps,{editActivityData})(App);

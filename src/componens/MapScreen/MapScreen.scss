@@ -1,0 +1,262 @@
+* { 
+    padding: 0; 
+    margin: 0 ;
+    min-height: 0;
+    min-width: 0; 
+}
+
+.Body{
+    width: 100%;  
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: white;
+}
+
+.ActivitiesSide{
+    flex:1;
+    height: 100vh;
+    background-color: #f3f3f3;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    .ButtonArea{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 70px;
+        background-color: white;
+
+        .Button{
+            flex:1;
+            display: flex;
+            flex-direction:row;
+            justify-content: center;
+            align-items: center;
+
+            img{
+                width: 40px;
+            }
+        }
+    }
+
+    .ActivitiesArea{
+        flex: 1;
+        overflow: auto;
+        box-sizing: border-box;
+        padding: 10px;     
+
+        .ActivityDiv{
+            width: 100%;
+            height: auto;
+            background-color: white;
+            border-radius: 5px;
+            padding: 10px;
+            box-sizing: border-box;
+            margin-top: 10px;
+
+            img{
+                width: 100%;
+                height: 100px;
+                object-fit: cover;
+                object-position: center;
+                border-radius: 5px;
+            }
+
+            .DescriptionDiv{
+                width: 100%;
+                background-color: #efefef;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                border-radius: 5px;
+                margin-top: 10px;
+                padding:15px;
+                box-sizing: border-box;
+
+                .ActivityName{
+                    width: 100%;
+                    font-size: 14px;
+                    font-weight: bold;
+                    text-align: center;
+                    color:black;
+                }
+                .Description{
+                    width: 100%;
+                    font-size: 13px;
+                    text-align: center;
+                    color: #9e9e9e;
+                    margin-top: 10px;
+                }
+                .Address{
+                    width: 100%;
+                    font-size: 14px;
+                    text-align: center;
+                    color:#9e9e9e;
+                    margin-top: 10px;
+                }
+            }
+
+            .Button{
+                width: 50%;
+                height: 40px;
+                transform: skew(-20deg);
+                background: #397cb6;
+                text-align: center;
+                display:flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                color:white;
+                font-size: 14px;
+                margin: 20px auto 10px ;
+                cursor: pointer;
+            }
+        }
+
+    }
+}
+
+.MapSide{
+    flex:3;
+    height: 100vh;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+
+    .mapMarker{
+        width: 50px;
+        cursor:pointer;
+    }
+
+    form{
+        width: 100%;
+        height: 70px;        
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        flex-direction: row;
+        align-items: center; 
+        justify-content: space-between;
+        background: #efefef;
+        border-radius: 5px;
+        padding: 10px;
+        box-sizing: border-box;
+
+        .dataList{
+            width: 24%;
+            height: 45px;
+            background-color: white; 
+            border:1px solid #dededf;
+            border-radius: 5px;
+            color:black;
+            font-weight: bold;
+            font-size: 15px;
+            padding-left: 5px;
+            box-sizing: border-box;
+        }
+        .submit{
+            width: 25%;
+            height: 45px;
+            background-color: #1b1c1d; 
+            border:1px solid #dededf;
+            border-radius: 5px;
+            margin-left: 1%;
+            color:white;
+            font-size: 11px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+    }
+}
+
+@media screen and (max-width: 900px)
+{
+
+    .Body{
+        flex-direction: column;
+    }
+
+    .ActivitiesSide{
+        height: 60vh;
+        width: 100%;
+
+        .ButtonArea{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            height: 40px;
+            background-color: white;
+    
+            .Button{
+                flex:1;
+                display: flex;
+                flex-direction:row;
+                justify-content: center;
+                align-items: center;
+    
+                img{
+                    width: 25px;
+                }
+            }
+        }
+    }
+    .MapSide{
+        height: 40vh;
+        width: 100%;
+
+        form{
+            width: 100%;
+            height: auto;        
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: none;
+            flex-direction: column;
+            align-items: center; 
+            justify-content: space-between;
+            background: #efefef;
+            border-radius: 5px;
+            box-sizing: border-box;
+    
+            .dataList{
+                width: 100%;
+                height: 45px;
+                background-color: white; 
+                border:1px solid #dededf;
+                border-radius: 5px;
+                color:black;
+                font-weight: bold;
+                font-size: 15px;
+                padding-left: 5px;
+                margin-top: 5px;
+                box-sizing: border-box;
+            }
+            .submit{
+                width: 100%;
+                height: 45px;
+                background-color: #1b1c1d; 
+                border:1px solid #dededf;
+                border-radius: 5px;
+                margin-left: 1%;
+                color:white;
+                font-size: 11px;
+                margin-top: 5px;
+                font-weight: bold;
+                cursor: pointer;
+            }
+        }
+    }
+
+}

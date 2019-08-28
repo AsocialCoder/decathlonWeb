@@ -1,0 +1,367 @@
+* { 
+    padding: 0; 
+    margin: 0 ;
+    min-height: 0;
+    min-width: 0; 
+}
+
+.Body{
+    width: 100%;  
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    overflow: auto;
+}
+
+.Baneer{
+    width: 80%;
+    border-radius: 4px;
+}
+
+.Wrap{
+    width: 80%;
+    background-color: #efefef;    
+    flex-direction: column;
+    margin-top: 20px;
+    border-radius: 4px;
+    padding: 10px;
+    box-sizing: border-box;
+
+    form{
+        width: 100%;
+        height: auto;        
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        flex-direction: row;
+        align-items: center; 
+        justify-content: space-between;
+        background: white;
+        border-radius: 5px;
+        padding: 10px;
+        box-sizing: border-box;
+
+        .dataList{
+            width: 24%;
+            height: 37px;
+            background-color: #efefef; 
+            border:1px solid #f0f0f0;
+            border-radius: 5px;
+            color:black;
+            font-weight: bold;
+            font-size: 15px;
+            padding-left: 5px;
+            box-sizing: border-box;
+        }
+        .submit{
+            width: 25%;
+            height: 37px;
+            background-color: #1b1c1d; 
+            border:1px solid #1b1c1d;
+            border-radius: 5px;
+            margin-left: 1%;
+            color:white;
+            font-size: 11px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+    }
+
+    .TitleDiv{
+        display:flex;
+        width: 100%;
+        height: auto;
+        background: white;
+        border-radius: 5px;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 10px;
+        padding:10px;
+        box-sizing: border-box;
+
+        span{
+            font-weight: bold;
+            font-size: 17px;
+        }
+        
+        div{
+            display: flex;
+            flex-direction:row;
+            align-items: center;
+            
+            span{
+                font-weight: bold;
+                font-size: 13px;
+                margin-left: 5px;
+            }
+        }
+    }
+
+    .ActivityDiv{
+        width: 24%;
+        height: 650px;
+        background-color: white;
+        margin-top: 10px;
+        border-radius: 5px;
+        display: flex;
+        flex-direction:column;
+        margin-left: 0.8%;
+        float:left;
+
+        .SportName{
+            position: absolute;   
+            height: 50px;
+            min-width: 120px;
+            display: flex;
+            align-items: center;   
+            
+            div{
+                border-top: 50px solid rgba(223,112,46,0.7);
+                border-right: 20px solid transparent;
+                width: 100%;
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+            }
+
+            span{
+                position: absolute;   
+                color:white;
+                font-size: 14px;
+                font-weight: bold;
+                margin-left: 10px;
+            }
+        }
+
+        img{
+            width:100%;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+
+        .DetailDiv{
+
+            padding: 15px;
+            box-sizing: border-box;
+            width: 100%;
+
+            .ActivityName{
+                display:flex;
+                align-items: center;
+                justify-content: center;
+                box-sizing: border-box;
+                background-color: #ededed;
+                width: 100%;
+                height: 60px;
+                font-size: 13px;
+                font-weight: bold;
+                border-radius: 4px;
+            }
+    
+            .StartDate{
+                font-size: 14px;
+                color:#999999;
+                font-weight: bold;
+                margin-top: 10px;
+                width: 100%;
+            }
+            .Province{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                font-size: 16px;
+                color: #525252;
+                font-weight: bold;
+                margin-top: 10px;
+                width: 100%;
+
+                img{
+                    width: 24px;
+                }
+            }
+
+            .Description{
+                font-size: 16px;
+                color: #525252;
+                font-weight: bold;
+                margin-top: 30px;
+                width: 100%;
+                height: 100px;
+            }
+        }      
+
+        .MaximumParticipants{
+            border:1px solid #f2f2f2;
+            border-right: 0px;
+            border-left: 0px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            font-size: 16px;
+            color: #525252;
+            font-weight: bold;
+            margin-top: 10px;
+            width: 100%;
+            padding: 15px;
+            box-sizing: border-box;
+
+                img{
+                    width: 24px;
+                    margin-right: 10px;
+                }
+        }
+
+        .Button{
+            width: 80%;
+            height: 40px;
+            transform: skew(-20deg);
+            background: #397cb6;
+            margin-top: 20px;
+            text-align: center;
+            display:flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            color:white;
+            font-weight: bold;
+            font-size: 15px;
+            margin: 10px auto;
+            cursor: pointer;
+        }
+
+        
+
+    }
+
+}
+
+
+@media screen and (max-width: 1366px)
+{
+    .Wrap{
+    
+        form{
+            width: 100%;
+            height: auto;        
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: flex;
+            flex-direction: row;
+            align-items: center; 
+            justify-content: space-between;
+            background: white;
+            border-radius: 5px;
+            padding: 10px;
+            box-sizing: border-box;
+    
+            .dataList{
+                width: 24%;
+                height: 37px;
+            }
+            .submit{
+                width: 25%;
+                height: 37px;
+                background-color: #1b1c1d; 
+                border:1px solid #1b1c1d;
+                border-radius: 5px;
+                margin-left: 1%;
+                color:white;
+                font-size: 11px;
+                font-weight: bold;
+                cursor: pointer;
+            }
+        }
+
+        .ActivityDiv{
+            width: 32%;
+            height: 660px;
+            background-color: white;
+            margin-top: 10px;
+            border-radius: 5px;
+            display: flex;
+            flex-direction:column;
+            margin-left: 1%;
+            float:left;
+        }
+    }
+    
+
+}
+
+@media screen and (max-width: 1024px)
+{
+    .Baneer{
+        width: 100%;
+    }
+    .Wrap{
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 720px)
+{
+    .Wrap{
+
+        form{
+            width: 100%;
+            height: auto;        
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: flex;
+            flex-direction: column;
+            align-items: center; 
+            justify-content: space-between;
+            background: white;
+            border-radius: 5px;
+            padding: 10px;
+            box-sizing: border-box;
+    
+            .dataList{
+                width: 100%;
+                margin-top: 10px;
+            }
+            .submit{
+                width: 100%;
+                height: 37px;
+                background-color: #1b1c1d; 
+                border:1px solid #1b1c1d;
+                border-radius: 5px;
+                margin-left: 1%;
+                color:white;
+                font-size: 11px;
+                font-weight: bold;
+                cursor: pointer;
+                margin-top: 5px;
+            }
+        }
+
+        .ActivityDiv{
+            width: 100%;
+            height: auto;
+            background-color: white;
+            margin-top: 10px;
+            border-radius: 5px;
+            display: flex;
+            flex-direction:column;
+            margin-left: 0.8%;
+            float:left;
+        }
+    }
+    
+
+}

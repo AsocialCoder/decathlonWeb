@@ -1,0 +1,486 @@
+{
+    "Message": "OK",
+    "Status": 1,
+    "Data": [
+      {
+        "Id": 112,
+        "ActivityName": "Ok Atma Tekniklerini Öğretme ve Yarışması - Aralık",
+        "StartDate": "2019-12-28T15:00:00",
+        "EndDate": "2019-12-28T16:00:00",
+        "EditedOn": "2019-06-19T12:25:37.561795",
+        "LastParticipationDate": "2019-12-28T15:00:00",
+        "Description": "Ok Atma Tekniklerini Öğretme ve Yarışması",
+        "IsForFree": true,
+        "GoogleMapsPlaceId": "ChIJx-tqsULcuxQR9K1LvFzNXXk",
+        "Province": "İzmir",
+        "City": "Balçova",
+        "District": "Bahçelerarası Mahallesi",
+        "Address": "Eğitim Mahallesi Mithatpaşa Caddesi Yanyolu, Bahçelerarası Mahallesi, EGE PARK BALCUVA FASHION AND, SHOPPING CENTER No:44, 35330 Balçova/İzmir, Turkey",
+        "ActivitySports": [
+          {
+            "ActivityId": 112,
+            "SportId": 180,
+            "SportName": "Okçuluk"
+          }
+        ],
+        "Categories": [
+          {
+            "ActivityId": 112,
+            "ActivityCategoryId": 1,
+            "CategoryName": "Decathlon Etkinliği"
+          }
+        ],
+        "ActivityParticipants": [],
+        "ActivityLat": "38.3949681",
+        "ActivityLng": "27.044112700000028",
+        "Featured": false,
+        "OwnerUser": null,
+        "OwnerId": 898338,
+        "ActivityType": 2,
+        "MaximumParticipants": 0,
+        "Price": 0,
+        "Intro": "Ok Atma Tekniklerini Öğretme ve Yarışmasına Davetlisiniz!",
+        "IntroText": "Ok Atma Tekniklerini Öğretme ve Yarışmasına Davetlisiniz!"
+      },
+      {
+        "Id": 81,
+        "ActivityName": "Decathlon Koordinasyon Parkuru",
+        "StartDate": "2019-12-21T15:00:00",
+        "EndDate": "2019-12-21T16:00:00",
+        "EditedOn": "2019-05-30T21:36:55.7831055",
+        "LastParticipationDate": "2019-12-21T15:00:00",
+        "Description": "Decathlon Koordinasyon Parkuru",
+        "IsForFree": true,
+        "GoogleMapsPlaceId": "ChIJb-R7CZZO0xQRkB6COp9fjBc",
+        "Province": "Ankara",
+        "City": "Yenimahalle",
+        "District": "Gazi Mahallesi",
+        "Address": "ANKAmall AVM, Gazi Mahallesi, Mevlana Blv., 06330 Yenimahalle/Ankara, Turkey",
+        "ActivitySports": [
+          {
+            "ActivityId": 81,
+            "SportId": 109,
+            "SportName": "Fitness"
+          }
+        ],
+        "Categories": [
+          {
+            "ActivityId": 81,
+            "ActivityCategoryId": 1,
+            "CategoryName": "Decathlon Etkinliği"
+          }
+        ],
+        "ActivityParticipants": [],
+        "ActivityLat": "39.9519093",
+        "ActivityLng": "32.83077530000003",
+        "Featured": false,
+        "OwnerUser": null,
+        "OwnerId": 996529,
+        "ActivityType": 2,
+        "MaximumParticipants": 0,
+        "Price": 0,
+        "Intro": "Decathlon Koordinasyon Parkuru",
+        "IntroText": "Decathlon Koordinasyon Parkuru"
+      },
+      {
+        "Id": 111,
+        "ActivityName": "Badminton Yarışması",
+        "StartDate": "2019-12-21T15:00:00",
+        "EndDate": "2019-12-21T16:00:00",
+        "EditedOn": "2019-06-21T10:57:38.1449269",
+        "LastParticipationDate": "2019-12-21T15:00:00",
+        "Description": "Badminton Yarışması",
+        "IsForFree": true,
+        "GoogleMapsPlaceId": "ChIJx-tqsULcuxQR9K1LvFzNXXk",
+        "Province": "İzmir",
+        "City": "Balçova",
+        "District": "Bahçelerarası Mahallesi",
+        "Address": "Eğitim Mahallesi Mithatpaşa Caddesi Yanyolu, Bahçelerarası Mahallesi, EGE PARK BALCUVA FASHION AND, SHOPPING CENTER No:44, 35330 Balçova/İzmir, Turkey",
+        "ActivitySports": [
+          {
+            "ActivityId": 111,
+            "SportId": 132,
+            "SportName": "Badminton"
+          }
+        ],
+        "Categories": [
+          {
+            "ActivityId": 111,
+            "ActivityCategoryId": 1,
+            "CategoryName": "Decathlon Etkinliği"
+          }
+        ],
+        "ActivityParticipants": [],
+        "ActivityLat": "38.3949681",
+        "ActivityLng": "27.044112700000028",
+        "Featured": true,
+        "OwnerUser": null,
+        "OwnerId": 898338,
+        "ActivityType": 2,
+        "MaximumParticipants": 0,
+        "Price": 0,
+        "Intro": "Badminton Yarışmamıza Davetlisiniz!",
+        "IntroText": "Badminton Yarışmamıza Davetlisiniz!"
+      },
+      {
+        "Id": 80,
+        "ActivityName": "Rollnet İnovasyon Tanıtımı ve Masa tenisi kurallar",
+        "StartDate": "2019-12-15T16:00:00",
+        "EndDate": "2019-12-15T17:00:00",
+        "EditedOn": "2019-05-30T20:44:42.0790629",
+        "LastParticipationDate": "2019-12-15T16:00:00",
+        "Description": "Rollnet İnovasyon Tanıtımı ve Masa tenisi kuralları ile yarışma",
+        "IsForFree": true,
+        "GoogleMapsPlaceId": "ChIJb-R7CZZO0xQRkB6COp9fjBc",
+        "Province": "Ankara",
+        "City": "Yenimahalle",
+        "District": "Gazi Mahallesi",
+        "Address": "ANKAmall AVM, Gazi Mahallesi, Mevlana Blv., 06330 Yenimahalle/Ankara, Turkey",
+        "ActivitySports": [
+          {
+            "ActivityId": 80,
+            "SportId": 139,
+            "SportName": "Masa Tenisi"
+          }
+        ],
+        "Categories": [
+          {
+            "ActivityId": 80,
+            "ActivityCategoryId": 1,
+            "CategoryName": "Decathlon Etkinliği"
+          }
+        ],
+        "ActivityParticipants": [],
+        "ActivityLat": "39.9519093",
+        "ActivityLng": "32.83077530000003",
+        "Featured": true,
+        "OwnerUser": null,
+        "OwnerId": 996529,
+        "ActivityType": 2,
+        "MaximumParticipants": 0,
+        "Price": 0,
+        "Intro": "Masa Tenisi Ürünlerimizi Tanıyalım! ",
+        "IntroText": "Masa Tenisi Ürünlerimizi Tanıyalım! "
+      },
+      {
+        "Id": 110,
+        "ActivityName": "Basket Atma Yarışması",
+        "StartDate": "2019-12-15T15:00:00",
+        "EndDate": "2019-12-15T16:00:00",
+        "EditedOn": "2019-05-30T20:49:10.9681525",
+        "LastParticipationDate": "2019-12-15T15:00:00",
+        "Description": "Basket Atma Yarışması🏀",
+        "IsForFree": true,
+        "GoogleMapsPlaceId": "ChIJx-tqsULcuxQR9K1LvFzNXXk",
+        "Province": "İzmir",
+        "City": "Balçova",
+        "District": "Bahçelerarası Mahallesi",
+        "Address": "Eğitim Mahallesi Mithatpaşa Caddesi Yanyolu, Bahçelerarası Mahallesi, EGE PARK BALCUVA FASHION AND, SHOPPING CENTER No:44, 35330 Balçova/İzmir, Turkey",
+        "ActivitySports": [
+          {
+            "ActivityId": 110,
+            "SportId": 78,
+            "SportName": "Basketbol"
+          }
+        ],
+        "Categories": [
+          {
+            "ActivityId": 110,
+            "ActivityCategoryId": 1,
+            "CategoryName": "Decathlon Etkinliği"
+          }
+        ],
+        "ActivityParticipants": [],
+        "ActivityLat": "38.3949681",
+        "ActivityLng": "27.044112700000028",
+        "Featured": false,
+        "OwnerUser": null,
+        "OwnerId": 898338,
+        "ActivityType": 2,
+        "MaximumParticipants": 0,
+        "Price": 0,
+        "Intro": "Basket Atma Yarışmamıza Davetlisiniz!",
+        "IntroText": "Basket Atma Yarışmamıza Davetlisiniz!"
+      },
+      {
+        "Id": 79,
+        "ActivityName": "Oxeloboard Tanıtım ve Uygulama",
+        "StartDate": "2019-12-07T15:00:00",
+        "EndDate": "2019-12-07T16:00:00",
+        "EditedOn": "2019-05-30T20:50:49.7312689",
+        "LastParticipationDate": "2019-12-07T15:00:00",
+        "Description": "Oxeloboard Tanıtım ve Uygulama",
+        "IsForFree": true,
+        "GoogleMapsPlaceId": "ChIJb-R7CZZO0xQRkB6COp9fjBc",
+        "Province": "Ankara",
+        "City": "Yenimahalle",
+        "District": "Gazi Mahallesi",
+        "Address": "ANKAmall AVM, Gazi Mahallesi, Mevlana Blv., 06330 Yenimahalle/Ankara, Turkey",
+        "ActivitySports": [
+          {
+            "ActivityId": 79,
+            "SportId": 171,
+            "SportName": "Kaykay"
+          }
+        ],
+        "Categories": [
+          {
+            "ActivityId": 79,
+            "ActivityCategoryId": 1,
+            "CategoryName": "Decathlon Etkinliği"
+          }
+        ],
+        "ActivityParticipants": [],
+        "ActivityLat": "39.9519093",
+        "ActivityLng": "32.83077530000003",
+        "Featured": true,
+        "OwnerUser": null,
+        "OwnerId": 996529,
+        "ActivityType": 2,
+        "MaximumParticipants": 0,
+        "Price": 0,
+        "Intro": "Oxeloboard'u Birlikte Tanıyalım ve Kullanalım!",
+        "IntroText": "Oxeloboard'u Birlikte Tanıyalım ve Kullanalım!"
+      },
+      {
+        "Id": 109,
+        "ActivityName": "Sandalye Kapma Yarışması",
+        "StartDate": "2019-12-07T15:00:00",
+        "EndDate": "2019-12-07T16:00:00",
+        "EditedOn": "2019-05-30T20:54:19.4932383",
+        "LastParticipationDate": "2019-12-07T15:00:00",
+        "Description": "Sandalye Kapma Yarışması",
+        "IsForFree": true,
+        "GoogleMapsPlaceId": "ChIJx-tqsULcuxQR9K1LvFzNXXk",
+        "Province": "İzmir",
+        "City": "Balçova",
+        "District": "Bahçelerarası Mahallesi",
+        "Address": "Eğitim Mahallesi Mithatpaşa Caddesi Yanyolu, Bahçelerarası Mahallesi, EGE PARK BALCUVA FASHION AND, SHOPPING CENTER No:44, 35330 Balçova/İzmir, Turkey",
+        "ActivitySports": [
+          {
+            "ActivityId": 109,
+            "SportId": 150,
+            "SportName": "Kampçılık"
+          }
+        ],
+        "Categories": [
+          {
+            "ActivityId": 109,
+            "ActivityCategoryId": 1,
+            "CategoryName": "Decathlon Etkinliği"
+          }
+        ],
+        "ActivityParticipants": [],
+        "ActivityLat": "38.3949681",
+        "ActivityLng": "27.044112700000028",
+        "Featured": true,
+        "OwnerUser": null,
+        "OwnerId": 898338,
+        "ActivityType": 2,
+        "MaximumParticipants": 0,
+        "Price": 0,
+        "Intro": "Aralık Ayında Yapılacak Olan Kamp Sandalyesi Kapma Etkinliğimize Davetlisiniz :)",
+        "IntroText": "Aralık Ayında Yapılacak Olan Kamp Sandalyesi Kapma Etkinliğimize Davetlisiniz :)"
+      },
+      {
+        "Id": 78,
+        "ActivityName": "Dart Tanıtım Etkinliği ve Dart Atma Yarışması",
+        "StartDate": "2019-12-01T16:00:00",
+        "EndDate": "2019-12-01T17:00:00",
+        "EditedOn": "2019-05-30T20:57:04.6913205",
+        "LastParticipationDate": "2019-12-01T16:00:00",
+        "Description": "Dart Tanıtım Etkinliği ve Dart Atma Yarışması",
+        "IsForFree": true,
+        "GoogleMapsPlaceId": "ChIJb-R7CZZO0xQRkB6COp9fjBc",
+        "Province": "Ankara",
+        "City": "Yenimahalle",
+        "District": "Gazi Mahallesi",
+        "Address": "ANKAmall AVM, Gazi Mahallesi, Mevlana Blv., 06330 Yenimahalle/Ankara, Turkey",
+        "ActivitySports": [
+          {
+            "ActivityId": 78,
+            "SportId": 184,
+            "SportName": "Dart"
+          }
+        ],
+        "Categories": [
+          {
+            "ActivityId": 78,
+            "ActivityCategoryId": 1,
+            "CategoryName": "Decathlon Etkinliği"
+          }
+        ],
+        "ActivityParticipants": [],
+        "ActivityLat": "39.9519093",
+        "ActivityLng": "32.83077530000003",
+        "Featured": true,
+        "OwnerUser": null,
+        "OwnerId": 996529,
+        "ActivityType": 2,
+        "MaximumParticipants": 0,
+        "Price": 0,
+        "Intro": "Aralık Ayında Yapılacak Olan Dart Atma Yarışmamıza Davetlisin!",
+        "IntroText": "Aralık Ayında Yapılacak Olan Dart Atma Yarışmamıza Davetlisin!"
+      },
+      {
+        "Id": 108,
+        "ActivityName": "Frizbi Atma Yarışması",
+        "StartDate": "2019-11-30T15:00:00",
+        "EndDate": "2019-11-30T16:00:00",
+        "EditedOn": "2019-05-30T20:58:07.0244578",
+        "LastParticipationDate": "2019-11-30T15:00:00",
+        "Description": "Mağazamızda yapılacak olan frizbi atma yarışmasına davetlisiniz!",
+        "IsForFree": true,
+        "GoogleMapsPlaceId": "ChIJx-tqsULcuxQR9K1LvFzNXXk",
+        "Province": "İzmir",
+        "City": "Balçova",
+        "District": "Bahçelerarası Mahallesi",
+        "Address": "Eğitim Mahallesi Mithatpaşa Caddesi Yanyolu, Bahçelerarası Mahallesi, EGE PARK BALCUVA FASHION AND, SHOPPING CENTER No:44, 35330 Balçova/İzmir, Turkey",
+        "ActivitySports": [
+          {
+            "ActivityId": 108,
+            "SportId": 327,
+            "SportName": "Frisbee"
+          }
+        ],
+        "Categories": [
+          {
+            "ActivityId": 108,
+            "ActivityCategoryId": 1,
+            "CategoryName": "Decathlon Etkinliği"
+          }
+        ],
+        "ActivityParticipants": [],
+        "ActivityLat": "38.3949681",
+        "ActivityLng": "27.044112700000028",
+        "Featured": true,
+        "OwnerUser": null,
+        "OwnerId": 898338,
+        "ActivityType": 2,
+        "MaximumParticipants": 0,
+        "Price": 0,
+        "Intro": "Mağazamızda yapılacak olan frizbi atma yarışmasına davetlisiniz!",
+        "IntroText": "Mağazamızda yapılacak olan frizbi atma yarışmasına davetlisiniz!"
+      },
+      {
+        "Id": 107,
+        "ActivityName": "İp Atlama Yarışması",
+        "StartDate": "2019-11-24T15:00:00",
+        "EndDate": "2019-11-24T16:00:00",
+        "EditedOn": "2019-05-30T21:02:11.4460965",
+        "LastParticipationDate": "2019-11-24T15:00:00",
+        "Description": "İp Atlama Yarışması",
+        "IsForFree": true,
+        "GoogleMapsPlaceId": "ChIJx-tqsULcuxQR9K1LvFzNXXk",
+        "Province": "İzmir",
+        "City": "Balçova",
+        "District": "Bahçelerarası Mahallesi",
+        "Address": "Eğitim Mahallesi Mithatpaşa Caddesi Yanyolu, Bahçelerarası Mahallesi, EGE PARK BALCUVA FASHION AND, SHOPPING CENTER No:44, 35330 Balçova/İzmir, Turkey",
+        "ActivitySports": [
+          {
+            "ActivityId": 107,
+            "SportId": 109,
+            "SportName": "Fitness"
+          }
+        ],
+        "Categories": [
+          {
+            "ActivityId": 107,
+            "ActivityCategoryId": 1,
+            "CategoryName": "Decathlon Etkinliği"
+          }
+        ],
+        "ActivityParticipants": [],
+        "ActivityLat": "38.3949681",
+        "ActivityLng": "27.044112700000028",
+        "Featured": true,
+        "OwnerUser": null,
+        "OwnerId": 898338,
+        "ActivityType": 2,
+        "MaximumParticipants": 0,
+        "Price": 0,
+        "Intro": "Kasım Ayında Yapılacak Olan İp Atlama Yarışmamıza Davetlisiniz!",
+        "IntroText": "Kasım Ayında Yapılacak Olan İp Atlama Yarışmamıza Davetlisiniz!"
+      },
+      {
+        "Id": 77,
+        "ActivityName": "Trainer Bisiklet Tanıtımı ve Yavaş Bisiklet Sürme ",
+        "StartDate": "2019-11-23T15:00:00",
+        "EndDate": "2019-11-23T16:00:00",
+        "EditedOn": "2019-05-30T21:04:33.0310909",
+        "LastParticipationDate": "2019-11-23T15:00:00",
+        "Description": "Trainer Bisiklet Tanıtımı ve Yavaş Bisiklet Sürme Yarışması",
+        "IsForFree": true,
+        "GoogleMapsPlaceId": "ChIJb-R7CZZO0xQRkB6COp9fjBc",
+        "Province": "Ankara",
+        "City": "Yenimahalle",
+        "District": "Gazi Mahallesi",
+        "Address": "ANKAmall AVM, Gazi Mahallesi, Mevlana Blv., 06330 Yenimahalle/Ankara, Turkey",
+        "ActivitySports": [
+          {
+            "ActivityId": 77,
+            "SportId": 281,
+            "SportName": "BMX"
+          }
+        ],
+        "Categories": [
+          {
+            "ActivityId": 77,
+            "ActivityCategoryId": 1,
+            "CategoryName": "Decathlon Etkinliği"
+          }
+        ],
+        "ActivityParticipants": [],
+        "ActivityLat": "39.9519093",
+        "ActivityLng": "32.83077530000003",
+        "Featured": true,
+        "OwnerUser": null,
+        "OwnerId": 996529,
+        "ActivityType": 2,
+        "MaximumParticipants": 0,
+        "Price": 0,
+        "Intro": "Kasım Ayında Yapılacak Olan Trainer Bisiklet Tanıtımına Davetlisiniz!",
+        "IntroText": "Kasım Ayında Yapılacak Olan Trainer Bisiklet Tanıtımına Davetlisiniz!"
+      },
+      {
+        "Id": 76,
+        "ActivityName": "Paten Öğrenme Etkinliği",
+        "StartDate": "2019-11-17T15:00:00",
+        "EndDate": "2019-11-17T16:00:00",
+        "EditedOn": "2019-06-01T06:30:25.3061393",
+        "LastParticipationDate": "2019-11-17T15:00:00",
+        "Description": "Paten Öğrenme Etkinliği",
+        "IsForFree": true,
+        "GoogleMapsPlaceId": "ChIJb-R7CZZO0xQRkB6COp9fjBc",
+        "Province": "Ankara",
+        "City": "Yenimahalle",
+        "District": "Gazi Mahallesi",
+        "Address": "ANKAmall AVM, Gazi Mahallesi, Mevlana Blv., 06330 Yenimahalle/Ankara, Turkey",
+        "ActivitySports": [
+          {
+            "ActivityId": 76,
+            "SportId": 166,
+            "SportName": "Paten"
+          }
+        ],
+        "Categories": [
+          {
+            "ActivityId": 76,
+            "ActivityCategoryId": 1,
+            "CategoryName": "Decathlon Etkinliği"
+          }
+        ],
+        "ActivityParticipants": [],
+        "ActivityLat": "39.9519093",
+        "ActivityLng": "32.83077530000003",
+        "Featured": true,
+        "OwnerUser": null,
+        "OwnerId": 996529,
+        "ActivityType": 2,
+        "MaximumParticipants": 0,
+        "Price": 0,
+        "Intro": "Kasım Ayında Yapılacak Olan Paten Öğrenme Etkinliğine Davetlisiniz!",
+        "IntroText": "Kasım Ayında Yapılacak Olan Paten Öğrenme Etkinliğine Davetlisiniz!"
+      }
+    ]
+  }
