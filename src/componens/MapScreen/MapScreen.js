@@ -100,7 +100,7 @@ class MapScreen extends Component {
                 </form>     
 
                 <GoogleMapReact
-                    bootstrapURLKeys={{ key: "AIzaSyA0AaXpQjKY20ZTRjC3_S7Alo3PgFRSU4k" }}
+                    bootstrapURLKeys={{ key: "" }}
                     defaultCenter={[39.91987, 32.85427]}
                     defaultZoom={6}
                     center={this.state.center}
